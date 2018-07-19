@@ -46,13 +46,13 @@ async function navigateWebsite (actionData) {
       console.log(`Executing action with argument: ${actionData[i]}`);
       // Navigate to a URL
       const actionUrl = getActionUrl(actionData[i]);
-	    await mainTab.goTo(actionUrl);
+      await mainTab.goTo(actionUrl);
       // Click login button
       await mainTab.click(actionButton);
-	    // Wait some time [ms]
-	    await mainTab.wait(timeForRedirections);
-	    await mainTab.log('Success. Redirecting...');   	
-	  	await mainTab.wait(timeBetweenActions);
+      // Wait some time [ms]
+      await mainTab.wait(timeForRedirections);
+      await mainTab.log('Success. Redirecting...');   	
+      await mainTab.wait(timeBetweenActions);
     }
 
     // Close the browser

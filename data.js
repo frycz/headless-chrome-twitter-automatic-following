@@ -1,3 +1,4 @@
 export default [
-    'realDonaldTrump'
+    'googledevs',
+    'AndroidDev',
   ];

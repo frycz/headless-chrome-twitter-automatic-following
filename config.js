@@ -12,4 +12,4 @@ export const config = {
     timeBetweenActions: 60000, // [ms]
     getActionUrl: (params) => `https://twitter.com/intent/follow?screen_name=${params}`,
     actionButton: '#follow_btn_form > button'
-  };
+};

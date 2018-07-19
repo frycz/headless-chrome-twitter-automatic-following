@@ -1,5 +1,5 @@
 {
-  "name": "headless-chrome",
+  "name": "headless-chrome-twitter-automatic-following",
   "version": "1.0.0",
   "description": "Automatic Twitter users following with headless Chrome",
   "main": "index.js",
